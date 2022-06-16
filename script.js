@@ -11,3 +11,9 @@ observer.observe(box, {
 });
 
 // observer.disconnect();
+
+
+// 75. Функции-конструкторы
+
+const num = new Number(3);
+console.log(num);
