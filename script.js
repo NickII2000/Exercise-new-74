@@ -45,3 +45,5 @@ console.log(alex);
 
 ivan.hello();
 alex.hello();
+
+// console.log(User.prototype);
