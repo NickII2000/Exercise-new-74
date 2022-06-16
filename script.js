@@ -15,11 +15,11 @@ observer.observe(box, {
 
 // 75. Функции-конструкторы
 
-// const num = new Number(3);
-// console.log(num);
+const num = new Number('3');
+console.log(num);
 
-// const fun = new Function(3);
-// console.log(fun);
+const fun = new Function(3);
+console.log(fun);
 
 function User(name, id) {
     this.name = name;
