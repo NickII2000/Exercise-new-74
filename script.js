@@ -18,7 +18,7 @@ observer.observe(box, {
 const num = new Number(3);
 console.log(num);
 
-const fun = new Function(3);
+const fun = new Function();
 console.log(fun);
 
 function User(name, id) {
@@ -28,4 +28,7 @@ function User(name, id) {
 }
 
 const ivan = new User('Ivan', 28);
+const alex = new User('Alex', 20);
+
 console.log(ivan);
+console.log(alex);
