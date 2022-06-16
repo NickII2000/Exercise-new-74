@@ -15,7 +15,7 @@ observer.observe(box, {
 
 // 75. Функции-конструкторы
 
-const num = new Number('3');
+const num = new Number(3);
 console.log(num);
 
 const fun = new Function(3);
