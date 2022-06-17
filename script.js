@@ -40,9 +40,11 @@ const nick = new User('Nick', 30);
 
 ivan.exit();
 alex.exit();
+nick.exit();
 
 console.log(ivan);
 console.log(alex);
+console.log(nick);
 
 ivan.hello();
 alex.hello();
