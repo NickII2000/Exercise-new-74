@@ -69,7 +69,10 @@ const obj = {
     a: 20,
     b: 15,
     sum: function () {
-        console.log(this);
+        function shout() {
+            console.log(this);
+        }
+        shout();
     }
 };
 obj.sum();
