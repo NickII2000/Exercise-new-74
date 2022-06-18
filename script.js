@@ -123,8 +123,9 @@ const btn = document.querySelector('button');
 //     this.style.backgroundColor = 'red';
 // });
 
-btn.addEventListener('click', () => {
-    console.log(this);
+btn.addEventListener('click', (e) => {
+    console.log(e.target);
+    e.target.style.backgroundColor = 'red';
 });
 
 const obj = {
