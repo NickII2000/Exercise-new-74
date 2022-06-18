@@ -64,6 +64,4 @@ function showThis(a, b) {
 }
 showThis();
 
-
-
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
