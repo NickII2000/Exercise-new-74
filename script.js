@@ -98,7 +98,8 @@ const user = {
     name: 'John'
 };
 
-sayName();
+sayName.call(user);
+sayName.apply(user);
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
 // 2) Контекст у методов объекта - сам объект.
