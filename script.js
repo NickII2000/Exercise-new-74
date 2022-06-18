@@ -21,33 +21,33 @@ console.log(num);
 const fun = new Function();
 console.log(fun);
 
-function User(name, id) {
-    this.name = name;
-    this.id = id;
-    this.human = true;
-    this.hello = function () {
-        console.log(`Hello, ${this.name}`);
-    };
-}
+// function User(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.human = true;
+//     this.hello = function () {
+//         console.log(`Hello, ${this.name}`);
+//     };
+// }
 
-User.prototype.exit = function () {
-    console.log(`Пользователь ${this.name} вышел`);
-};
+// User.prototype.exit = function () {
+//     console.log(`Пользователь ${this.name} вышел`);
+// };
 
-const ivan = new User('Ivan', 28);
-const alex = new User('Alex', 20);
-// const nick = new User('Nick', 30);
+// const ivan = new User('Ivan', 28);
+// const alex = new User('Alex', 20);
+// // const nick = new User('Nick', 30);
 
-ivan.exit();
-alex.exit();
-// nick.exit();
+// ivan.exit();
+// alex.exit();
+// // nick.exit();
 
-console.log(ivan);
-console.log(alex);
-// console.log(nick);
+// console.log(ivan);
+// console.log(alex);
+// // console.log(nick);
 
-ivan.hello();
-alex.hello();
+// ivan.hello();
+// alex.hello();
 // nick.hello();
 
 // console.log(User.prototype);
@@ -65,17 +65,28 @@ alex.hello();
 // }
 // showThis(4, 5);
 
-const obj = {
-    a: 20,
-    b: 15,
-    sum: function () {
-        function shout() {
-            console.log(this);
-        }
-        shout();
-    }
-};
-obj.sum();
+// const obj = {
+//     a: 20,
+//     b: 15,
+//     sum: function () {
+//         function shout() {
+//             console.log(this);
+//         }
+//         shout();
+//     }
+// };
+// obj.sum();
+
+function User(name, id) {
+    this.name = name;
+    this.id = id;
+    this.human = true;
+    this.hello = function () {
+        console.log(`Hello, ${this.name}`);
+    };
+}
+
+const ivan = new User('Ivan', 28);
 
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
