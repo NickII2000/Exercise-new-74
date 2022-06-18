@@ -40,7 +40,7 @@ const nick = new User('Nick', 30);
 
 ivan.exit();
 alex.exit();
-nick.exit();
+// nick.exit();
 
 console.log(ivan);
 console.log(alex);
