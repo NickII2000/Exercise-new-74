@@ -55,9 +55,15 @@ alex.hello();
 
 // 76. Контекст вызова. This
 
-function showThis() {
+function showThis(a, b) {
     console.log(this);
+    function sum() {
+        return this.a + this.b;
+    }
+
 }
 showThis();
+
+
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
