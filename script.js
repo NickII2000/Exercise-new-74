@@ -114,3 +114,9 @@ console.log(double(13));
 // 2) Контекст у методов объекта - сам объект.
 // 3) This в конструкторах и классах = это новый экземпляр объекта.
 // 4) Ручная привязка this: call, apply, bind.
+
+const btn = document.querySelector('button');
+
+btn.addEventListener('click', function () {
+    console.log(this);
+});
