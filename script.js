@@ -132,6 +132,7 @@ const obj = {
     sayNumber: function () {
         const say = () => {
             console.log(this);
+            console.log(this.num);
         };
         say();
     }
