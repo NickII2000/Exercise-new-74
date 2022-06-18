@@ -169,7 +169,7 @@ class ColoredRectangleWithText extends Rectangle {
 
 }
 
-const div = new ColoredRectangleWithText(25, 20, 'Hello World', 'red');
+const div = new ColoredRectangleWithText(25, 10, 'Hello World', 'red');
 
 div.showMyProps();
 
