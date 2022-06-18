@@ -126,3 +126,11 @@ const btn = document.querySelector('button');
 btn.addEventListener('click', () => {
     console.log(this);
 });
+
+const obj = {
+    num: 5,
+    sayNumber: function () {
+        console.log(this);
+    }
+};
+obj.sayNumber();
