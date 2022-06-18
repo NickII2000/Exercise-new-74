@@ -44,7 +44,7 @@ nick.exit();
 
 console.log(ivan);
 console.log(alex);
-console.log(nick);
+// console.log(nick);
 
 ivan.hello();
 alex.hello();
