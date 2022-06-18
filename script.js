@@ -77,17 +77,28 @@ console.log(fun);
 // };
 // obj.sum();
 
-function User(name, id) {
-    this.name = name;
-    this.id = id;
-    this.human = true;
-    this.hello = function () {
-        console.log(`Hello, ${this.name}`);
-    };
+// function User(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.human = true;
+//     this.hello = function () {
+//         console.log(`Hello, ${this.name}`);
+//     };
+// }
+
+// const ivan = new User('Ivan', 28);
+
+
+function sayName() {
+    console.log(this);
+    console.log(this.name);
 }
 
-const ivan = new User('Ivan', 28);
+const user = {
+    name: 'John'
+};
 
+sayName();
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
 // 2) Контекст у методов объекта - сам объект.
