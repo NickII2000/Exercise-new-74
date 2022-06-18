@@ -36,7 +36,7 @@ User.prototype.exit = function () {
 
 const ivan = new User('Ivan', 28);
 const alex = new User('Alex', 20);
-const nick = new User('Nick', 30);
+// const nick = new User('Nick', 30);
 
 ivan.exit();
 alex.exit();
