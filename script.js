@@ -58,3 +58,5 @@ function showThis() {
     console.log(this);
 }
 showThis();
+
+// 1) Обычная функция: this = window, но если 'use strict' - undefined.
