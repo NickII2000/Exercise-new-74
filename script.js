@@ -130,7 +130,10 @@ btn.addEventListener('click', () => {
 const obj = {
     num: 5,
     sayNumber: function () {
-        console.log(this);
+        const say = () => {
+            console.log(this);
+        };
+        say();
     }
 };
 obj.sayNumber();
