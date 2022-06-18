@@ -52,6 +52,7 @@ alex.hello();
 
 // console.log(User.prototype);
 
+
 // 76. Контекст вызова. This
 
 function showThis() {
