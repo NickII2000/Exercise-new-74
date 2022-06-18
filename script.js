@@ -48,6 +48,6 @@ console.log(nick);
 
 ivan.hello();
 alex.hello();
-nick.hello();
+// nick.hello();
 
 // console.log(User.prototype);
