@@ -138,3 +138,6 @@ const obj = {
     }
 };
 obj.sayNumber();
+
+const double2 = (a) => a * 2;
+console.log(double2(25));
