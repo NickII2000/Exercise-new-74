@@ -170,7 +170,10 @@ class ColoredRectangleWithText extends Rectangle {
 }
 
 const div = new ColoredRectangleWithText(25, 20, 'Hello World', 'red');
+
 div.showMyProps();
+
+console.log(div.calcArea());
 
 // const square = new Rectangle(10, 10);
 // const long = new Rectangle(20, 100);
