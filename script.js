@@ -89,18 +89,18 @@ console.log(fun);
 // const ivan = new User('Ivan', 28);
 
 
-function sayName() {
+function sayName(surName) {
     console.log(this);
-    console.log(this.name);
+    console.log(this.name + ' ' + surName);
 }
 
 const user = {
     name: 'John'
 };
 
-sayName.call(user);
+sayName.call(user, 'Alex');
 
-sayName.apply(user);
+sayName.apply(user, ['Alex']);
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
 // 2) Контекст у методов объекта - сам объект.
