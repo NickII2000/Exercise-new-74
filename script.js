@@ -108,6 +108,7 @@ function count(num) {
 const double = count.bind(2);
 
 console.log(double(100));
+console.log(double(13));
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
 // 2) Контекст у методов объекта - сам объект.
