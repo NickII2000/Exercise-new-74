@@ -51,3 +51,10 @@ alex.hello();
 // nick.hello();
 
 // console.log(User.prototype);
+
+// 76. Контекст вызова. This
+
+function showThis() {
+    console.log(this);
+}
+showThis();
