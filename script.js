@@ -156,5 +156,8 @@ class Rectangle {
     }
 }
 
-const square = new Rectangle(10, 20);
+const square = new Rectangle(10, 10);
+const long = new Rectangle(20, 100);
+
 console.log(square.calcArea());
+console.log(long.calcArea());
