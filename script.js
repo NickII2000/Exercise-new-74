@@ -145,3 +145,16 @@
 
 // 77. Классы (ES6)
 
+class Rectangle {
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
+
+    calcArea() {
+        return this.height * this.width;
+    }
+}
+
+const square = new Rectangle(10, 20);
+console.log(square.calcArea());
