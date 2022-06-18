@@ -99,6 +99,7 @@ const user = {
 };
 
 sayName.call(user);
+
 sayName.apply(user);
 
 // 1) Обычная функция: this = window, но если 'use strict' - undefined.
